@@ -1,9 +1,9 @@
 var React = require('react');
 
 var About = (props) => {
-    return(
+    return (
         <div>
-            <h1> About </h1>
+            <h1>About</h1>
             <p>Welcome to the about page</p>
         </div>
     )};
