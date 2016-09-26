@@ -1,4 +1,4 @@
-# Reather Weather
+# React Weather App
 
 A minimalist weather React app. Technologies used:
 
