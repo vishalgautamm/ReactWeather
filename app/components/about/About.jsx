@@ -4,7 +4,8 @@ var About = (props) => {
     return (
         <div>
             <h1>About</h1>
-            <p>Welcome to the about page</p>
+            <p>zExperience the weather</p>
+            <p>Prepare for your day with the most accurate hourly, 5-day and 10-day forecasts</p>
         </div>
     )};
 
