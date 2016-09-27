@@ -25108,8 +25108,7 @@
 	            ),
 	            React.createElement(WeatherForm, { onSearch: this.handleSearch }),
 	            renderMessage(),
-	            renderError(),
-	            ';'
+	            renderError()
 	        );
 	    }
 	});
@@ -27111,7 +27110,7 @@
 
 
 	// module
-	exports.push([module.id, ".page-title {\n    margin-top: 2.5rem;\n    margin-bottom: 2.5rem;\n}\n\ninput[type=search] {\n    box-shadow: none;\n}\n\n\n", ""]);
+	exports.push([module.id, ".page-title {\n    margin-top: 2.5rem;\n    margin-bottom: 2.5rem;\n}\n\ninput[type=search] {\n    box-shadow: none;\n}\n\n\n\n", ""]);
 
 	// exports
 
