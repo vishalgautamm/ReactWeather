@@ -114,6 +114,9 @@
 	__webpack_require__(254);
 	$(document).foundation();
 
+	//App CSS
+	__webpack_require__(258);
+
 	ReactDOM.render(React.createElement(
 	    Router,
 	    { history: hashHistory },
@@ -25012,7 +25015,7 @@
 	                        React.createElement(
 	                            'li',
 	                            null,
-	                            React.createElement('input', { type: 'search', placeholder: 'Search weather' })
+	                            React.createElement('input', { type: 'search', className: 'text-center', placeholder: 'Search weather by city' })
 	                        ),
 	                        React.createElement(
 	                            'li',
@@ -25100,7 +25103,7 @@
 	            null,
 	            React.createElement(
 	                'h1',
-	                { className: 'text-center' },
+	                { className: 'text-center page-title' },
 	                'Get Weather'
 	            ),
 	            React.createElement(WeatherForm, { onSearch: this.handleSearch }),
@@ -25141,7 +25144,7 @@
 	            React.createElement(
 	                'form',
 	                { onSubmit: this.onFormSubmit },
-	                React.createElement('input', { type: 'text', placeholder: 'Enter City Name', ref: 'location' }),
+	                React.createElement('input', { type: 'search', className: 'text-center', placeholder: 'Search weather by city', ref: 'location' }),
 	                React.createElement(
 	                    'button',
 	                    { className: 'hollow expanded button' },
@@ -26627,7 +26630,7 @@
 	        null,
 	        React.createElement(
 	            "h1",
-	            { className: "text-center" },
+	            { className: "text-center page-title" },
 	            " About"
 	        ),
 	        React.createElement(
@@ -26685,10 +26688,10 @@
 	var Examples = function Examples(props) {
 	    return React.createElement(
 	        'div',
-	        null,
+	        { className: 'examples' },
 	        React.createElement(
 	            'h1',
-	            { className: 'text-center' },
+	            { className: 'text-center page-title' },
 	            'Examples'
 	        ),
 	        React.createElement(
@@ -27071,6 +27074,46 @@
 		if(oldSrc)
 			URL.revokeObjectURL(oldSrc);
 	}
+
+
+/***/ },
+/* 258 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(259);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(257)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../node_modules/css-loader/index.js!./app.css", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js!./app.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 259 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(256)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".page-title {\n    margin-top: 2.5rem;\n    margin-bottom: 2.5rem;\n}\n\ninput[type=search] {\n    box-shadow: none;\n}\n\n\n", ""]);
+
+	// exports
 
 
 /***/ }
