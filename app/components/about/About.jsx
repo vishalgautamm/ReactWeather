@@ -2,10 +2,13 @@ var React = require('react');
 
 var About = (props) => {
     return (
-        <div>
-            <h1>About</h1>
-            <p>zExperience the weather</p>
-            <p>Prepare for your day with the most accurate hourly, 5-day and 10-day forecasts</p>
+        <div className="text-center">
+            <span className="secondary badge">A</span>
+            <span className="success badge">B</span>
+            <span className="alert badge">O</span>
+            <span className="warning badge">U</span>
+            <span className="success badge">T</span>
+            <p>Experience the weather</p>
         </div>
     )};
 

@@ -25087,7 +25087,7 @@
 	            'div',
 	            null,
 	            React.createElement(
-	                'h1',
+	                'h2',
 	                null,
 	                'Weather Component'
 	            ),
@@ -26542,28 +26542,43 @@
 /* 251 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	var React = __webpack_require__(8);
 
 	var About = function About(props) {
 	    return React.createElement(
-	        'div',
-	        null,
+	        "div",
+	        { className: "text-center" },
 	        React.createElement(
-	            'h1',
-	            null,
-	            'About'
+	            "span",
+	            { className: "secondary badge" },
+	            "A"
 	        ),
 	        React.createElement(
-	            'p',
-	            null,
-	            'zExperience the weather'
+	            "span",
+	            { className: "success badge" },
+	            "B"
 	        ),
 	        React.createElement(
-	            'p',
+	            "span",
+	            { className: "alert badge" },
+	            "O"
+	        ),
+	        React.createElement(
+	            "span",
+	            { className: "warning badge" },
+	            "U"
+	        ),
+	        React.createElement(
+	            "span",
+	            { className: "success badge" },
+	            "T"
+	        ),
+	        React.createElement(
+	            "p",
 	            null,
-	            'Prepare for your day with the most accurate hourly, 5-day and 10-day forecasts'
+	            "Experience the weather"
 	        )
 	    );
 	};
