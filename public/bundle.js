@@ -25087,7 +25087,7 @@
 	            'div',
 	            null,
 	            React.createElement(
-	                'h2',
+	                'h1',
 	                null,
 	                'Weather Component'
 	            ),
