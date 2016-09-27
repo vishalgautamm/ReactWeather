@@ -26549,36 +26549,45 @@
 	var About = function About(props) {
 	    return React.createElement(
 	        "div",
-	        { className: "text-center" },
+	        null,
 	        React.createElement(
-	            "span",
-	            { className: "secondary badge" },
-	            "A"
-	        ),
-	        React.createElement(
-	            "span",
-	            { className: "success badge" },
-	            "B"
-	        ),
-	        React.createElement(
-	            "span",
-	            { className: "alert badge" },
-	            "O"
-	        ),
-	        React.createElement(
-	            "span",
-	            { className: "warning badge" },
-	            "U"
-	        ),
-	        React.createElement(
-	            "span",
-	            { className: "success badge" },
-	            "T"
+	            "h1",
+	            { className: "text-center" },
+	            " About"
 	        ),
 	        React.createElement(
 	            "p",
 	            null,
-	            "Experience the weather"
+	            "Experience the weather. This is the weather app I built on React, Webpack, ES6 and other tools. "
+	        ),
+	        React.createElement(
+	            "p",
+	            null,
+	            " The following are some of the tools that I async used for building this application"
+	        ),
+	        React.createElement(
+	            "ul",
+	            null,
+	            React.createElement(
+	                "li",
+	                null,
+	                "Javascript Library: ",
+	                React.createElement(
+	                    "a",
+	                    { href: "https://facebook.github.io/react", target: "_blank" },
+	                    "React"
+	                )
+	            ),
+	            React.createElement(
+	                "li",
+	                null,
+	                "Weather Data: ",
+	                React.createElement(
+	                    "a",
+	                    { href: "http://openweathermap.org", target: "_blank" },
+	                    "Open Weather Map"
+	                )
+	            )
 	        )
 	    );
 	};
