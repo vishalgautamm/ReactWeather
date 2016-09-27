@@ -26542,46 +26542,28 @@
 /* 251 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	var React = __webpack_require__(8);
 
 	var About = function About(props) {
 	    return React.createElement(
-	        "div",
+	        'div',
 	        null,
 	        React.createElement(
-	            "h1",
+	            'h1',
 	            null,
-	            "About"
+	            'About'
 	        ),
 	        React.createElement(
-	            "p",
+	            'p',
 	            null,
-	            "Welcome to the about page"
+	            'zExperience the weather'
 	        ),
 	        React.createElement(
-	            "li",
-	            { className: "orbit-slide" },
-	            React.createElement(
-	                "div",
-	                null,
-	                React.createElement(
-	                    "h3",
-	                    { className: "text-center" },
-	                    "2: You can also throw some text in here!"
-	                ),
-	                React.createElement(
-	                    "p",
-	                    { className: "text-center" },
-	                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita."
-	                ),
-	                React.createElement(
-	                    "h3",
-	                    { className: "text-center" },
-	                    "This Orbit slider does not use animations."
-	                )
-	            )
+	            'p',
+	            null,
+	            'Prepare for your day with the most accurate hourly, 5-day and 10-day forecasts'
 	        )
 	    );
 	};
