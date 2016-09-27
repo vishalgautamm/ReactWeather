@@ -102,7 +102,7 @@
 	var Route = _require.Route;
 	var Router = _require.Router;
 	var IndexRoute = _require.IndexRoute;
-	var browserHistory = _require.browserHistory;
+	var hashHistory = _require.hashHistory;
 
 
 	var Main = __webpack_require__(223);
@@ -116,7 +116,7 @@
 
 	ReactDOM.render(React.createElement(
 	    Router,
-	    { history: browserHistory },
+	    { history: hashHistory },
 	    React.createElement(
 	        Route,
 	        { path: '/', component: Main },
@@ -24994,7 +24994,7 @@
 	                        null,
 	                        React.createElement(
 	                            Link,
-	                            { to: 'examples', activeClassName: 'active', activeStyle: { fontWeight: 'bold' } },
+	                            { to: '/examples', activeClassName: 'active', activeStyle: { fontWeight: 'bold' } },
 	                            'Examples'
 	                        )
 	                    )
