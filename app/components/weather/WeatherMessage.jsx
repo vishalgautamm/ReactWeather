@@ -1,6 +1,6 @@
 var React = require('react');
 
 var WeatherMessage = ({location, temp}) => {
-    return (<h3 className="callout secondary text-center"> It is {temp}°F in {location} </h3>)};
+    return (<h3 className="callout secondary text-center"> It is {temp}°C in {location} </h3>)};
 
 module.exports = WeatherMessage;

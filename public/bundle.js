@@ -25173,7 +25173,7 @@
 	        { className: "callout secondary text-center" },
 	        " It is ",
 	        temp,
-	        "°F in ",
+	        "°C in ",
 	        location,
 	        " "
 	    );
@@ -25252,7 +25252,7 @@
 
 	// GENERATE BASE URL
 
-	var OPEN_WEATHER_MAP_URL = 'http://api.openweathermap.org/data/2.5/weather?&units=imperial&appid=c828622ff452e1078e432e69b7d6492e';
+	var OPEN_WEATHER_MAP_URL = 'http://api.openweathermap.org/data/2.5/weather?&units=metric&appid=c828622ff452e1078e432e69b7d6492e';
 
 	module.exports = {
 	    getTemp: function getTemp(location) {
